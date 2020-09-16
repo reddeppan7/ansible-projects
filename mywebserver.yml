@@ -1,0 +1,10 @@
+---
+- hosts: all
+  tasks: 
+  - name: i want to ping all my hosts or nodes
+    ping:
+
+  - name: i want install apache2 webserver on ubuntu 
+    apt:
+      name: apache2
+      state: present  

@@ -1,0 +1,24 @@
+
+---
+- sDetails: 
+      - name: sonu
+        phno: 9191919191
+        course: devops
+        address: srnagar
+
+      - name: reddy
+        phno: 8181818181
+        course: devops
+        address: kukatpalli
+
+      - name: sunita
+        phno: 7171717171
+        course: devops 
+        address: koti
+
+
+
+
+      - sonu
+      - reddy 
+      - sunita
