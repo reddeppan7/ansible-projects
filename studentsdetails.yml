@@ -1,6 +1,6 @@
 
 ---
-- sDetails: 
+- studentDetails: 
       - name: sonu
         phno: 9191919191
         course: devops
