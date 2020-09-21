@@ -2,16 +2,17 @@
 172.31.25.113
 172.31.24.95
 
-{appservers}
+[appservers]
 172.31.25.110
 172.31.25.111
 
-{dbservers}
-172.31.25.112
-172.31.25.114
-
-{ubuntu servers}
+[ubuntu servers]
 172.31.25.113
 
-{RedHatservers}
+[redhatservers]
 172.31.24.95
+
+[webservers:vars]
+key=valuve
+mywebonubuntu=apache2
+mywebonredhat=httpd
