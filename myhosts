@@ -1,3 +1,15 @@
+[webservers]
 172.31.25.113
 172.31.24.95
 
+[ubuntuservers]
+172.31.25.113
+
+[RedHatservers]
+172.31.24.95
+
+
+[weservers:vars]
+key=value
+mywebonubuntu=apache2
+mywebonRedHat=httpd
