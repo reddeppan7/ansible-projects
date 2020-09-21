@@ -2,3 +2,6 @@
 key: value
 mywebonubuntu: apache2
 mywebonRedhat: httpd
+
+myjavaonubuntu=openjdk-8-jdk
+myjavaonRedhat=java-1.8.0-openjdk-devel
