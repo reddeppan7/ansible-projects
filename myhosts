@@ -15,3 +15,8 @@
 
 [RedHatservers]
 172.31.24.95
+
+[webservers:vars]
+key=value
+mywebonubuntu=apache2
+mywebonRedhat=httpd
