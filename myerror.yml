@@ -10,7 +10,8 @@
   - name: i want to install tree
     apt:
       nameee: tree
-      state: present
+      state: present 
+    ignore_errors: yes
 
   - name: i want to install wget
     apt:
