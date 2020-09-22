@@ -12,4 +12,9 @@
   - name: i want to restart apache2 webserver
     service:
       name: apache2
-      state: restarted     
+      state: restarted   
+      
+  - name: copy index.j2 file into ansible node side    
+    templates:
+      src: index.j2
+      dest: var/www/html/index.html  
