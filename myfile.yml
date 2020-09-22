@@ -1,5 +1,5 @@
 ---
-- name: i want creat a file
+- name: i want to creat a file
   file:
     path: /home/reddy/reddyfile.txt
     state: touch
