@@ -17,4 +17,4 @@
   - name: copy index.j2 file into ansible node side    
     template:
       src: index.j2
-      dest: var/www/html/index.html  
+      dest: /var/www/html/index.html  
