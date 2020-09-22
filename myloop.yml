@@ -1,12 +1,12 @@
 ---
-- hosts: webservers
+- hosts: 172.31.25.113  
   become: yes
   tasks:
   - name: i want install git, tree, wget
     apt:
-      name: "{{item}}"
+      name: "{{ item }}"
       state: present 
     loop:
-      -git
-      -tree
-      -wget        
+      - git
+      - tree
+      - wget        
