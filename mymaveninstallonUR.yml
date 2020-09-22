@@ -1,0 +1,15 @@
+---
+- hosts: webservers
+  become: yes
+  tasks:
+  - name: i wnat to install maven on ubuntu
+    apt:
+      name: "{{mymavenonubuntu}}"
+      state: present
+    when: ansible_os_family =="Debian" 
+    
+  - name: i want to install maven on RedHat
+    yum:
+      name: "{{mymavenonRedHat}}"
+      state: present
+    when: ansible_os_family =="RedHat"       
